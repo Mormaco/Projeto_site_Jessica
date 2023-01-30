@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5));
+    background-image: url("/img/img_background_jornal.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabeçalho-link a{
+    color: #FFC300;
+    font-size: 18px;
+}
+
+.cabeçalho-link a:hover{
+    color: #8A8711;
+    transition: 0.3s all;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #FFC300;
+    color: #FFC300;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button{
+    color: #FFC300;
+    background: transparent;
+    border: solid 1px #FFC300;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #8A8711;
+    color: black;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0 0 130px;
+}
+
+.text h3{
+    color: #FFC300;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #FFC300;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #fff;
+}
+
+.text p{
+    color: #FFC300;
+    font-size: 20px;
+    font-weight: 300px;
+    margin-top: 10px;
+}
+
+.redes-sociais a{
+    color: #FFC300;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 10px;
+}
